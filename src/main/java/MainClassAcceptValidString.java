@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.Set;
 
-public class EnterValidString {
+public class MainClassAcceptValidString {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //Take user input
