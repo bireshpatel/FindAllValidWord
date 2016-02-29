@@ -1,0 +1,61 @@
+Test Scenarios:
+1. Enter valid string "TEST"
+    Expected:
+    TEST : Word is Valid
+    E : Word is Valid
+    T : Word is Valid
+    TE : Word is Valid
+    ST : Word is Valid
+    ES : Word is Valid
+    S : Word is Valid
+    EST : Word is Valid
+    TES : Word is Valid
+
+2. Enter invalid data with special char(%$^$&*^*)
+    Expected: Not a Valid Word
+
+3. Enter invalid data with special char(^&%HGHG)
+    Expected: Not a Valid Word
+
+4. Enter numeric value(00000000000000000000)
+    Expected: Not a Valid Word
+
+5. Enter numeric value(12121212) & Enter valid string "COOL"
+Expected:
+    Please Enter the Word to Check:
+    12121212
+    Not a Valid Word
+    COOL
+    Word is: COOL
+    OL : Word is Valid
+    COOL : Word is Valid
+    C : Word is Valid
+    L : Word is Valid
+    CO : Word is Valid
+    O : Word is Valid
+    OOL : Word is Valid
+    OO : Word is Valid
+    COO : Word is Valid
+
+6. Enter numeric value(123COOL321)
+    Expected:
+    Please Enter the Word to Check:
+    123COOL321
+    Not a Valid Word
+    COOL
+    Word is: COOL
+    OL : Word is Valid
+    COOL : Word is Valid
+    C : Word is Valid
+    L : Word is Valid
+    CO : Word is Valid
+    O : Word is Valid
+    OOL : Word is Valid
+    OO : Word is Valid
+    COO : Word is Valid
+
+7. Enter long string (QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ)
+   Expected:
+   Please Enter the Word to Check:
+   QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+   Not a Valid Word
