@@ -16,10 +16,13 @@ public class EnterValidString {
         String word = input.next();
         System.out.println("Word is: " + word);
 
-        FindAllPossibleWord findAllPossibleWord = new FindAllPossibleWord();
+        CommonClass commonClass = new CommonClass();
+        commonClass.stringToTest(word);
+
+        /*FindAllPossibleWord findAllPossibleWord = new FindAllPossibleWord();
         Set<String> checkWord = findAllPossibleWord.returnWords(word);
 
         ValidateDictionary validateDictionary = new ValidateDictionary();
-        validateDictionary.returnValidWord(checkWord);
+        validateDictionary.returnValidWord(checkWord);*/
     }
 }
