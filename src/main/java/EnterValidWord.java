@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.util.Set;
 
-public class ValidWord {
+public class EnterValidWord {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //Take user input
@@ -16,8 +16,8 @@ public class ValidWord {
         String word = input.next();
         System.out.println("Word is: " + word);
 
-        FindWords findWords = new FindWords();
-        Set<String> checkWord = findWords.returnWords(word);
+        FindAllPossibleWord findAllPossibleWord = new FindAllPossibleWord();
+        Set<String> checkWord = findAllPossibleWord.returnWords(word);
 
         ValidateDictionary validateDictionary = new ValidateDictionary();
         validateDictionary.returnValidWord(checkWord);

@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class FindWords {
+public class FindAllPossibleWord {
 
     public Set<String> returnWords(String str) {
 
